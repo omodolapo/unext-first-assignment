@@ -1,0 +1,51 @@
+body{
+    font-size: 18px;
+    font-weight: 300,400,700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+._header{
+    background-color: rgb(236, 228, 228);
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.logo{
+    margin-left: 120px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.links li{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: hsl(220, 2%, 62%);
+}
+.links li a{
+    text-decoration: none;
+    color: hsl(220, 2%, 62%);
+}
+
+.links li a:hover{
+    color:hsl(140, 84%, 20%)
+}
+.link-box{
+    margin-left: 450px;
+    margin-top: -60px;
+}
+
+._btn{
+    float: right;
+    margin-right: 80px;
+    margin-top: -48px;
+    border-radius: 24px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: hsl(140, 84%, 20%);
+    color: white;
+    border: hsl(138, 94%, 32%);
+}
